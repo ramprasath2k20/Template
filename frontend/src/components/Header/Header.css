@@ -1,0 +1,47 @@
+/* Header container */
+
+  
+  
+  
+  
+  
+  
+
+  
+  .ant-dropdown-menu-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Smaller screen responsive */
+  @media (max-width: 768px) {
+    .profile-name {
+      display: none; /* Hide profile name on small screens */
+    }
+  
+    .header-right {
+      flex-direction: row;
+    }
+  
+    .logo h1 {
+      font-size: 1.2rem;
+    }
+  }
+/* CustomMenu.css */
+.ant-menu-item-selected {
+  border-bottom: 2px solid white; /* Change the thickness and color of the border */
+}
+
+/* Optional: Change the color of the text for active item */
+.ant-menu-item-selected a {
+  color: white !important; /* Ensure text color is white */
+}
+/* CustomMenu.css */
+
+/* Customize the border color of the active menu item */
+:where(.ant-menu-light.ant-menu-horizontal) > .ant-menu-item-selected::after,
+:where(.ant-menu-light) > .ant-menu.ant-menu-horizontal > .ant-menu-item-selected::after,
+:where(.ant-menu-light.ant-menu-horizontal) > .ant-menu-submenu-selected::after,
+:where(.ant-menu-light) > .ant-menu.ant-menu-horizontal > .ant-menu-submenu-selected::after {
+    border: none !important; /* Set the desired color */
+}

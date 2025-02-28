@@ -1,0 +1,80 @@
+.app-footer {
+    background-color: #001529; /* Footer background color */
+    color: white; /* Footer text color */
+    padding: 16px 0; /* Padding for the footer */
+    position: relative; /* Positioning */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+  }
+  /* Footer styles */
+.footer {
+  background-color: #1f1e3a;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footer-review {
+  margin-bottom: 30px;
+}
+
+.footer-review h2 {
+  font-size: 1.5em;
+}
+
+.footer-review p {
+  margin: 10px 0;
+}
+
+.review-button {
+  background-color: #ff5c33;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.stars {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.footer-logo {
+  height: 50px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
